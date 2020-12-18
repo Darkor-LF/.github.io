@@ -24,6 +24,7 @@ h1 {
     color:#be4163ff;
     text-shadow: 2px -2px 2px #9ce0ffff;
     text-align: center;
+    padding-right: 20px;
 }
 
 header {
@@ -34,6 +35,9 @@ header {
     align-items: center;
     background-color: #ee97a0;
     font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 .logo-TG {
