@@ -1,0 +1,115 @@
+/* CSS HEX
+--rojo: #be4163;
+--rosa: #df879f;
+--rosapug: #ee97a0;
+--rosita: #faf1ec;
+--azul: #9ce0ff; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Karla:ital,wght@0,400;0,500;1,300;1,400;1,600&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    background-color: #faf1ecff;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color:#be4163ff;
+    text-shadow: 2px -2px 2px #9ce0ffff;
+    text-align: center;
+}
+
+header {
+    height: 200px;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee97a0;
+    font-size: 1.5rem;
+}
+
+.logo-TG {
+    width: 130px;
+}
+
+/* MOTY*/
+
+.premio {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    color: #be4163;
+    padding: 25px 15px;
+}
+
+button {
+	box-shadow: 3px 4px 0px 0px #df879f;
+	background:linear-gradient(to bottom, #F6CACF 5%, #ee97a0 100%);
+	background-color:#F6CACF;
+	border-radius:4px;
+	border:1px solid #df879f;
+	display:inline-block;
+	cursor:pointer;
+	color:#be4163;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:1px 1.5px 0px #9ce0ff;
+    display: block;
+    margin: 0 auto;
+}
+button:hover {
+	background:linear-gradient(to bottom, #ee97a0 5%, #F6CACF 100%);
+	background-color:#ee97a0;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*Logos and RRSS */
+.logos {
+    height: 200px;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 10px 30px;
+}
+
+.rrss {
+    padding: 10px 5px;
+    align-items: center;
+    width: 50px;
+}
+
+.rrss img {
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+/*Footer*/
+footer {
+    background-color:#be4163;
+    position:absolute;
+   bottom:0;
+   width: 100%;
+
+}
+.footer {
+    padding: 20px 15px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #faf1ecff;
+}
