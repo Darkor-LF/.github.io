@@ -12,20 +12,20 @@
 </head>
 
 <body>
-    <div class="wrapper">
+   
 
-    <header class='one'>
+    <header>
         <a href='https://todasgamers.com' target="_blank" rel="noopener noreferrer">
             <img src='./images/todas_gamers_logo.png' alt='Todas Gamers logo' class='logo-TG'></a>
         <h1>Generador de premios MOTY's</h1>
     </header>
 
-    <main class="moty two">
+    <main class="moty">
         <p class='premio'></p>
         <button onclick="generateMoty()">¡Crea tu premio!</button>
     </main>
 
-    <nav class="logos three">
+    <nav class="logos">
         <ul>
             <li> <a href='https://www.patreon.com/todasgamers' target="_blank" rel="noopener noreferrer" >
                     <img src='./images/Patreon_Mark_Coral.jpg' alt='Patreon'></a> </li>
@@ -58,7 +58,7 @@
         </ul>
     </nav>
 
-    <footer class="four">
+    <footer>
         <p class="footer">Por Darkor_LF para El Pugcast y Todas Gamers &copy2020</p>
     </footer>
 </div>
