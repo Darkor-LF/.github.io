@@ -84,7 +84,7 @@ const generateMoty = () => {
     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
 
-
+console.log(motyIni.length,Math.floor(Math.random() * motyIni.length))
         document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
 
 
