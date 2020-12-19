@@ -69,7 +69,7 @@ let motyFin = ['que explota a la gente',
     'con señores que son escoria pero te gustan',
     'desarrollado por Hatsune Miku',
     'que solo jugarías en la Game Boy Advance Tribal',
-    'que te brickea la PS4'
+    'que te brickea la PS4',
     'donde sale el Papa',
     'donde sale Rajoy',
     'donde sale Rosalía',
@@ -84,7 +84,7 @@ const generateMoty = () => {
     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
 
-console.log(motyIni.length,Math.floor(Math.random() * motyIni.length))
+console.log(motyIni.length, Math.floor(Math.random() * motyIni.length))
         document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
 
 
