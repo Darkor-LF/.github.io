@@ -12,20 +12,21 @@
 </head>
 
 <body>
-   
+    <div class="wrapper">
 
     <header>
-        <a href='https://todasgamers.com' target="_blank" rel="noopener noreferrer">
+       <a href='https://todasgamers.com' target="_blank" rel="noopener noreferrer">
             <img src='./images/todas_gamers_logo.png' alt='Todas Gamers logo' class='logo-TG'></a>
         <h1>Generador de premios MOTY's</h1>
     </header>
 
     <main class="moty">
+           
         <p class='premio'></p>
         <button onclick="generateMoty()">¡Crea tu premio!</button>
     </main>
 
-    <nav class="logos">
+    <nav>
         <ul>
             <li> <a href='https://www.patreon.com/todasgamers' target="_blank" rel="noopener noreferrer" >
                     <img src='./images/Patreon_Mark_Coral.jpg' alt='Patreon'></a> </li>
@@ -33,7 +34,7 @@
                     >
                     <img src='./images/Humble-Bundle.png' alt='Humble bundle'></a></li>
             <li>   <a href='https://ko-fi.com/A230CK9' target="_blank" rel="noopener noreferrer" >
-                    <img src='./images/Kofi_pixel_logo.png' alt='Kofi'></a></li>
+                    <img src='./images/Kofi_pixel_logo.png' alt='Ko-fi'></a></li>
 
             <li>   <a href='https://www.instagram.com/todasgamers/?hl=es' target="_blank" rel="noopener noreferrer"
                     >
@@ -61,6 +62,7 @@
     <footer>
         <p class="footer">Por Darkor_LF para El Pugcast y Todas Gamers &copy2020</p>
     </footer>
+</div>
 
 </body>
 <script type="text/javascript" src="./js/generator.js"></script>
