@@ -25,6 +25,7 @@ h1 {
     text-shadow: 2px -2px 2px #9ce0ffff;
     text-align: center;
     padding-right: 20px;
+    font-size: 3rem;
 }
 
 header {
@@ -34,19 +35,23 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #ee97a0;
-    font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 10px;
-
 }
 
 .logo-TG {
     width: 130px;
 }
 
-/* MOTY*/
+.wrapper {
+  display: grid;
+   height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
 
+
+/* MOTY*/
 .premio {
     text-align: center;
     font-size: 1.5rem;
@@ -55,6 +60,40 @@ header {
     padding: 25px 15px;
 }
 
+
+/*Logos and RRSS */
+
+nav ul {
+    height: 200px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+nav img {
+    padding: 10px 8px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+footer {
+    background-color:#be4163;
+   width: 100%;
+}
+
+.footer {
+    padding: 20px 15px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #faf1ecff;
+}
+
+/* Button*/
 button {
 	box-shadow: 3px 4px 0px 0px #df879f;
 	background:linear-gradient(to bottom, #F6CACF 5%, #ee97a0 100%);
@@ -78,50 +117,4 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
-}
-
-
-/*Logos and RRSS */
-
-.logos {
-    height: 200px;
-    display:flex;
-}
-
-nav ul {
-    width:100%;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display:flex;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 10px 30px;
-}
-li {
-    padding: 10px 5px;
-    align-items: center;
-    width: 50px;
-}
-
-nav img {
-    justify-content: center;
-    align-items: center;
-    width: 100%
-}
-
-/*Footer*/
-footer {
-    background-color:#be4163;
-    position:absolute;
-   bottom:0;
-   width: 100%;
-
-}
-.footer {
-    padding: 20px 15px;
-    font-size: 0.9rem;
-    text-align: center;
-    color: #faf1ecff;
 }
