@@ -63,6 +63,7 @@
     <footer>
         <p class="footer">Por Darkor_LF para El Pugcast y Todas Gamers &copy2020</p>
     </footer>
+    
 </div>
 
 </body>
