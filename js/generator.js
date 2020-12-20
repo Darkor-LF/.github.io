@@ -84,8 +84,17 @@ let motyFin = ['que explota a la gente',
 
 
 const generateMoty = () => {
-    let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
-    let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
+    const shuffle = (a)  => {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+//     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
+//     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
+        let motyIniRand = shuffle(motyIni)
+  let motyFinRand = shuffle(motyFin)
 
 console.log(motyIni.length, Math.floor(Math.random() * motyIni.length))
         document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
