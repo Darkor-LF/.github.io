@@ -3,7 +3,7 @@ let motyIni = ['Mejor compañía',
     'Mejor personaje',
     'Peor personaje',
     'Mejor juego',
-    'Peor juego', 
+    'Peor juego',
     'Mejor Pokemon',
     'Peor Pokemon',
     'Mejor minijuego',
@@ -39,7 +39,7 @@ let motyIni = ['Mejor compañía',
     'Mejor juego indie',
     'Peor juego indie',
 ]
- 
+
 let motyFin = ['que explota a la gente',
     'que lucha por la preservación',
     'que lucha contra la preservación',
@@ -84,19 +84,19 @@ let motyFin = ['que explota a la gente',
 
 
 const generateMoty = () => {
-    const shuffle = (a)  => {
+    const shuffle = (a) => {
         for (let i = a.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [a[i], a[j]] = [a[j], a[i]]
         }
         return a
-        }
-//     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
-//     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
-        let motyIniRand = shuffle(motyIni)[Math.floor(Math.random() * motyIni.length)]
-  let motyFinRand = shuffle(motyFin)[Math.floor(Math.random() * motyFin.length)]
+    }
+    //     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
+    //     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
+    let motyIniRand = shuffle(motyIni)[Math.floor(Math.random() * motyIni.length)]
+    let motyFinRand = shuffle(motyFin)[Math.floor(Math.random() * motyFin.length)]
 
-        document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
+    document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
 
- 
+
 }
