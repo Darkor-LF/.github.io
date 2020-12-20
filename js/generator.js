@@ -90,7 +90,7 @@ const generateMoty = () => {
         [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
-// }
+}
 //     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
 //     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
         let motyIniRand = shuffle(motyIni)[Math.floor(Math.random() * motyIni.length)]
