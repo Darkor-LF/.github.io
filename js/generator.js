@@ -76,6 +76,9 @@ let motyFin = ['que explota a la gente',
     'donde sale Jesucristo',
     'donde sale la Reina de Inglaterra',
     'que programó Taylor Swift una tarde de 2020 que estaba aburrida',
+    'que parece escrito por Elon Musk',
+    'que parece sacado de Midsommar',
+    'recién salido de un fanfic'
 ]
 
 
