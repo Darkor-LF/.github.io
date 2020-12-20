@@ -91,12 +91,12 @@ const generateMoty = () => {
     }
     return a;
 }
-//     let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
-//     let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
-        let motyIniRand = shuffle(motyIni)[Math.floor(Math.random() * motyIni.length)]
-  let motyFinRand = shuffle(motyFin)[Math.floor(Math.random() * motyFin.length)]
+    let motyIniRand = motyIni[Math.floor(Math.random() * motyIni.length)]
+    let motyFinRand = motyFin[Math.floor(Math.random() * motyFin.length)]
+//         let motyIniRand = shuffle(motyIni)[Math.floor(Math.random() * motyIni.length)]
+//   let motyFinRand = shuffle(motyFin)[Math.floor(Math.random() * motyFin.length)]
 
-console.log(motyFinRand[Math.floor(Math.random() * motyFin.length)])
+// console.log(motyFinRand[Math.floor(Math.random() * motyFin.length)])
         document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
 
 
