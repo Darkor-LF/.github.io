@@ -96,7 +96,7 @@ const generateMoty = () => {
         let motyIniRand = shuffle(motyIni)
   let motyFinRand = shuffle(motyFin)
 
-console.log(motyIni.length, Math.floor(Math.random() * motyIni.length))
+console.log('holi')
         document.querySelector('.premio').innerHTML = `<i>${motyIniRand} ${motyFinRand}</i>`
 
 
